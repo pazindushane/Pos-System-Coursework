@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shane's POS</title>
+    <link rel="stylesheet" href="../Assests/css/style.css">
+    <link rel="stylesheet" href="../Assests/css/bootstrap.css" >
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbr">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="../Assests/img/do-minimalist-logo-design-with-business-card-and-stationery__1_-removebg-preview.png" alt=""  height="34" class="d-inline-block align-top">
+            POS <span>System</span>
+        </a>
+    </div>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link active" aria-current="page" href="#"></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="#"></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item dropdown">-->
+<!--                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--                        -->
+<!--                    </a>-->
+<!--                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+<!--                        <li><a class="dropdown-item" href="#"></a></li>-->
+<!--                        <li><a class="dropdown-item" href="#"></a></li>-->
+<!--                        <li><hr class="dropdown-divider"></li>-->
+<!--                        <li><a class="dropdown-item" href="#"></a></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>-->
+<!--                </li>-->
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-info text-light" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+</nav>
+<!--<hr class=" hr1">-->
+<br>
+<br>
+<div id="dash" class="dash">
+
+
+    <img class="img1 " src="../Assests/img/image.gif" id="home1">
+    <h2 id="nav" class="nav">Dash<span>board</span></h2>
+    <h2 id="nav1" class="nav1">Cust<span>omer</span></h2>
+    <h2 id="nav3" class="nav3">It<span>em</span></h2>
+    <h2 id="nav4" class="nav4">Ord<span>ers</span></h2>
+
+    <button id="savecust" class=" btn btn-outline-primary b1 ">Manage Customers</button>
+
+
+
+    <button id="makeord" class=" btn btn-outline-success b2 ">Make order</button>
+
+
+
+    <button id="Itms" class=" btn btn-outline-warning b3 ">Manage Items</button>
+
+
+
+    <button class=" btn btn-outline-danger b4 ">Analytics</button>
+
+</div>
+
+<div id="ob1" class="ob1">
+
+    <div class="box1">
+        <img src="../Assests/img/icons8-user-groups-64.png">
+        <p class="fs-1  p11">150+</p>
+        <p class="fs-5  p12">Customers</p>
+    </div>
+
+    <img src="../Assests/img/do-minimalist-logo-design-with-business-card-and-stationery__1_-removebg-preview.png" alt=""  height="34" class="d-inline-block align-top">
+
+    <h2 id="nav2">Pos<span> System</span></h2>
+
+    <div class="box2">
+        <img src="../Assests/img/icons8-sneakers-100.png">
+        <p class="fs-1  p11">500+</p>
+        <p class="fs-5  p12">Items</p>
+    </div>
+
+    <div class="box2-1">
+        <img src="../Assests/img/icons8-stocks-growth-80.png">
+        <p class="fs-1  p11">20,000+</p>
+        <p class="fs-5  p12">Sales</p>
+    </div>
+
+    <h2 class="copyright">Copyright © 2021 Pazindu Shane- All rights reserved</h2>
+
+</div>
+<!--===============================Customer=====================================================================-->
+<section id="cust" class="container">
+    <section class=" row">
+        <div class="col-sm">
+            <form class="addc" id="custForm">
+                <div class=" mb-3 ">
+                    <input type="email" class="form-control" id="CustomerID"  placeholder="CustomerID">
+                    <span class="control-error text-danger" id="lblcusid"></span>
+                </div>
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="CustomerName" aria-describedby="Customer Name"  placeholder="Customer Name">
+                    <span class="control-error text-danger" id="lblcusname"></span>
+                </div>
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="CustomerAddress" aria-describedby="Customer Address" placeholder="Customer Address">
+                    <span class="control-error text-danger" id="lblcusasddress"></span>
+                </div>
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="CustomerSalary" aria-describedby="Customer Salary" placeholder="Customer Salary">
+                    <span class="control-error text-danger" id="lblcussalary"></span>
+                </div>
+
+                <button type="button" class="btn btn-primary" id="SaveCustomer">Save Customer</button>
+                <button type="button" class="btn btn-danger" id="btnCusDelete">Remove</button>
+                <button type="button" class="btn btn-warning" id="btnUpdate">Update</button>
+                <button type="button" class="btn btn-success" id="btnGetAll">Get All</button>
+                <button type="button" class="btn btn-danger">Clear All</button>
+            </form>
+        </div>
+
+        <div class="col-sm ">
+            <table class="table table-hover table-bordered  tb1" id="tb1-1">
+
+                <thead class="bg-primary text-light">
+                <tr>
+                    <th >Customer ID</th>
+                    <th >Customer Name</th>
+                    <th >Customer Address</th>
+                    <th >Customer Salary</th>
+                </tr>
+                </thead>
+
+                <tbody id="tblcustomer">
+
+                </tbody>
+
+
+            </table>
+        </div>
+
+        <!--    <div class="row col-sm"></div>-->
+    </section>
+    <div class="box1">
+        <img src="../Assests/img/icons8-user-groups-64.png">
+        <p class="fs-1  p11">150</p>
+        <p class="fs-5  p12">Customers</p>
+    </div>
+
+</section>
+
+
+
+<!--================================Order=======================================================================-->
+<section id="ord" class="ob2">
+
+    <div class="items1">
+        <div class="item01">
+            <h4>Invoice<span> Details</span></h4>
+            <div class=" mb-3 lb1">
+                <input type="text" class="form-control form-control-sm" id="OrderID" aria-describedby="Order ID" placeholder="Order ID">
+                <span class="control-error text-success" id="lbloid">Order ID</span>
+            </div>
+            <div class=" mb-3 lb2">
+                <input type="date" class="form-control" id="Date1" aria-describedby="Date :" placeholder="Date :">
+                <span class="control-error text-success" id="lbldate"></span>
+            </div>
+            <div class="form-floating mb-3 lb3">
+<!--                <input type="text" class="form-control" id="Customerr" aria-describedby="Customer :">-->
+<!--                <label for="Customerr" >Customer :</label>-->
+
+                <select class="form-select" aria-label="Default select example" id="CustSelect">
+
+
+                </select>
+            </div>
+            <div class=" mb-3 lb4">
+                <input type="text" class="form-control" id="CustId" aria-describedby="Customer Id" placeholder="Customer Id">
+                <span class="control-error text-success" id="lblcid">Cust ID</span>
+            </div>
+            <div class=" mb-3 lb5">
+                <input type="text" class="form-control" id="Name1" aria-describedby="Name :" placeholder="Name :">
+                <span class="control-error text-success" id="lblcname">Name</span>
+            </div>
+            <div class=" mb-3 lb6">
+                <input type="text" class="form-control" id="Salary1" aria-describedby="Salary :" placeholder="Salary :">
+                <span class="control-error text-success" id="lblslry">Salary</span>
+            </div>
+            <div class=" mb-3 lb7">
+                <input type="text" class="form-control" id="Address1" aria-describedby="Address :" placeholder="Address :">
+                <span class="control-error text-success" id="lbladd">Address</span>
+            </div>
+<!--            <img src="../Assests/img/CI-FN3-GROBN-400-removebg-preview.png">-->
+<!--            <p class="fs-5 fw-bolder">Nicaraguan Cigar</p>-->
+        </div>
+        <div class="item02">
+            <h4>Item<span> Select</span></h4>
+            <div class="form-floating mb-3 lb8">
+<!--                <input type="text" class="form-control" id="Item1" aria-describedby="Item :">-->
+<!--                <label for="Item1" class="form-label" >Item :</label>-->
+
+                <select class="form-select" aria-label="Default select example" id="ItmSelect">
+<!--                    <option selected>Customer :</option>-->
+<!--                    <option value="1">One</option>-->
+<!--                    <option value="2">Two</option>-->
+<!--                    <option value="3">Three</option>-->
+                </select>
+            </div>
+            <div class=" mb-3 lb9">
+                <input type="text" class="form-control" id="ItemCode1" aria-describedby="Item Code :" placeholder="Item Code :">
+                <span class="control-error text-success" id="lblcod">Item Code</span>
+            </div>
+            <div class=" mb-3 lb10">
+                <input type="text" class="form-control" id="ItemName2" aria-describedby="Item Name :" placeholder="Item Name :">
+                <span class="control-error text-success" id="lblcname1">Item Name</span>
+            </div>
+            <div class=" mb-3 lb11">
+                <input type="text" class="form-control" id="Price1" aria-describedby="Price :" placeholder="Price :">
+                <span class="control-error text-success" id="lblprice">Price</span>
+            </div>
+            <div class=" mb-3 lb12">
+                <input type="text" class="form-control" id="QtyOnH1" aria-describedby="QtyOnH :" placeholder="QtyOnH :">
+                <span class="control-error text-success" id="lblqtyh">QTY On Hand</span>
+            </div>
+            <div class=" mb-3 lb13">
+                <input type="text" class="form-control" id="OrderQuantity1" aria-describedby="OrderQuantity :" placeholder="OrderQuantity :">
+                <span class="control-error text-danger" id="lbloqty"></span>
+            </div>
+            <button type="button" class="btn btn-danger b12" id="additmbtn">Add Item</button>
+<!--            <img src="../Assests/img/ezgif.com-gif-maker-removebg-preview.png">-->
+<!--            <p class="fs-5 fw-bolder">Camacho Cigar</p>-->
+        </div>
+<!--        <div class="item03">-->
+<!--            <img src="../Assests/img/smok-morph_2-default_2-removebg-preview.png">-->
+<!--            <p class="fs-5 fw-bolder">Morph-2</p>-->
+<!--        </div>-->
+<!--        <div class="item04">-->
+<!--            <img src="../Assests/img/geek_vape_aegis_mini_80w_tc_starter_kit-removebg-preview.png">-->
+<!--            <p class="fs-5 fw-bolder">Vape</p>-->
+<!--        </div>-->
+
+<!--        <div class="item01-1">-->
+<!--            <img src="../Assests/img/CI-FN3-GROBN-400-removebg-preview.png">-->
+<!--            <p class="fs-6  para1-1">Nicaraguan</p>-->
+<!--            <p class="fs-3 fw-bolder para1-2">$ 8</p>-->
+<!--            <button type="button" class="btn btn-outline-danger fs-6 fw-bolder b5">-</button>-->
+<!--            <p class="fs-4 fw-bolder para1-3">2</p>-->
+<!--            <button type="button" class="btn btn-outline-danger fs-6 fw-bolder b6">+</button>-->
+<!--        </div>-->
+
+<!--        <div class="item02-1">-->
+<!--            <img src="../Assests/img/smok-morph_2-default_2-removebg-preview.png">-->
+<!--            <p class="fs-6  para2-1">MORPH 2</p>-->
+<!--            <p class="fs-3 fw-bolder para2-2">$ 10</p>-->
+<!--            <button type="button" class="btn btn-outline-danger fs-6 fw-bolder b7">-</button>-->
+<!--            <p class="fs-4 fw-bolder para2-3">5</p>-->
+<!--            <button type="button" class="btn btn-outline-danger fs-6 fw-bolder b8">+</button>-->
+<!--        </div>-->
+
+<!--        <div class="item03-1">-->
+<!--            <img src="../Assests/img/geek_vape_aegis_mini_80w_tc_starter_kit-removebg-preview.png">-->
+<!--            &lt;!&ndash;        <img src="Assests/img/smok-morph_2-default_2-removebg-preview.png">&ndash;&gt;-->
+<!--            <p class="fs-6  para3-1">Vape</p>-->
+<!--            <p class="fs-3 fw-bolder para3-2">$ 15</p>-->
+<!--            <button type="button" class="btn btn-outline-danger fs-6 fw-bolder b9">-</button>-->
+<!--            <p class="fs-4 fw-bolder para3-3">8</p>-->
+<!--            <button type="button" class="btn btn-outline-danger fs-6 fw-bolder b11">+</button>-->
+<!--        </div>-->
+
+        <div class="item04-1">
+<!--            <h4>Dash<span>board</span></h4>-->
+            <p class="fs-5  para4-1">Total</p>
+            <p class="fs-5  para4-1-1" id="tot1">$ 2</p>
+            <p class="fs-3 fw-bolder para4-2">Sub Total</p>
+            <p class="fs-3 fw-bolder para4-2-2" id="subtot1">.00</p>
+            <div class=" mb-3 lb14">
+                <input type="text" class="form-control" id="Cash1" aria-describedby="Cash :" placeholder="Cash :">
+                <span class="control-error text-success" id="lblcash">Cash</span>
+            </div>
+            <div class=" mb-3 lb15">
+                <input type="text" class="form-control" id="Discount1" aria-describedby="Discount :" placeholder="Discount :">
+                <span class="control-error text-success" id="lbldics">Discount</span>
+            </div>
+            <div class=" mb-3 lb16">
+                <input type="text" class="form-control" id="Balance1" aria-describedby="Balance :" placeholder="Balance :">
+                <<span class="control-error text-success" id="lblblance">Balance</span>
+            </div>
+            <button class=" btn btn-success b13 " id="PurchaseBtn">Purchase</button>
+        </div>
+    </div>
+
+    <div class="col-sm ">
+        <table class="table table-hover table-bordered  tb3" id="tb1-3">
+
+            <thead class="bg-primary text-light">
+            <tr>
+                <th >Item Code</th>
+                <th >Item Name</th>
+                <th >Price</th>
+                <th >Quantity</th>
+                <th >Total</th>
+            </tr>
+            </thead>
+
+            <tbody id="tblitem2">
+
+
+            </tbody>
+
+        </table>
+    </div>
+
+</section>
+
+<!--================================Items=======================================================================-->
+
+<section id="itm" class="ob3">
+
+    <section class=" row">
+        <div class="col-sm">
+            <form class="addc" id="itmForm">
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="ItemCode" aria-describedby="Item Code" placeholder="Item Code">
+                    <span class="control-error text-danger" id="lblitmcode"></span>
+                </div>
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="ItemName" aria-describedby="Item Name" placeholder="Item Name">
+                    <span class="control-error text-danger" id="lblitmname"></span>
+                </div>
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="ItemQTY" aria-describedby="Item QTY" placeholder="Item QTY">
+                    <span class="control-error text-danger" id="lblitmqty"></span>
+                </div>
+                <div class=" mb-3 ">
+                    <input type="text" class="form-control" id="ItemPrice" aria-describedby="Item Price" placeholder="Item Price">
+                    <span class="control-error text-danger" id="lblitmprice"></span>
+                </div>
+
+                <button type="button" class="btn btn-primary" id="AddItem">Add Item</button>
+                <button type="button" class="btn btn-danger" id="btnItmDelete">Remove</button>
+                <button type="button" class="btn btn-warning" id="btnUpdateItm">Update</button>
+                <button type="button" class="btn btn-success" id="btnGetAllItm">Get All</button>
+                <button type="button" class="btn btn-danger">Clear All</button>
+            </form>
+        </div>
+
+        <div class="col-sm ">
+            <table class="table  table-bordered  tb2" id="tb1-2">
+
+                <thead class="bg-primary text-light">
+                <tr>
+                    <th >Item Code</th>
+                    <th >Item Name</th>
+                    <th >Item QTY</th>
+                    <th >Item Price</th>
+                </tr>
+                </thead>
+
+                <tbody id="tblitem">
+
+
+                </tbody>
+
+            </table>
+        </div>
+
+        <!--    <div class="row col-sm"></div>-->
+    </section>
+    <div class="box2">
+        <img src="../Assests/img/icons8-sneakers-100.png">
+        <p class="fs-1  p11">500</p>
+        <p class="fs-5  p12">Items</p>
+    </div>
+
+</section>
+
+
+<script src="../Assests/js/bootstrap.js"></script>
+
+<script src="../controller/DashboardController.js"></script>
+
+<script src="../Assests/js/jquery-3.5.1.min.js"></script>
+
+<script src="../controller/CustomerController.js"></script>
+
+<script src="../controller/ItemController.js"></script>
+
+<script src="../controller/OrderController.js"></script>
+
+<script src="../db/Database.js"></script>
+
+<script src="../model/CustomerDTO.js"></script>
+
+<script src="../model/ItemDTO.js"></script>
+
+<script src="../model/OrderDTO.js"></script>
+
+</body>
+</html>

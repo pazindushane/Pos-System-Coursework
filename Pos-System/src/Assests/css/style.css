@@ -1,0 +1,988 @@
+.navbar .container-fluid .navbar-brand{
+    font-family: Quicksand;
+    font-size: 27px;
+    color: #3A3B3B;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+.navbar .container-fluid .navbar-brand>span{
+    color: #14A8D5;
+}
+
+.navbar .container-fluid .collapse .navbar-nav .nav-item .nav-link{
+    font-family: Quicksand;
+    font-size: 18px;
+
+}
+
+
+
+.hr1{
+    border: 5px solid #0381C2;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.dash{
+    width: 271px;
+    height: 539px;
+    position: absolute;
+    left: 14px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 0 4px 30px #777;
+}
+
+.ob1{
+    width: 1054px;
+    height: 574px;
+    position: absolute;
+    top: 86px;
+    left: 309px;
+    background: transparent;
+}
+
+.dash .b1{
+    position: absolute;
+    top: 135px;
+    left: 10px;
+    width: 251px;
+    height: 62px;
+    border-radius: 20px;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.dash .b2{
+    position: absolute;
+    top: 201px;
+    left: 10px;
+    width: 251px;
+    height: 62px;
+    border-radius: 20px;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.dash .b3{
+    position: absolute;
+    top: 267px;
+    left: 10px;
+    width: 251px;
+    height: 62px;
+    border-radius: 20px;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.dash .b4{
+    position: absolute;
+    top: 333px;
+    left: 10px;
+    width: 251px;
+    height: 62px;
+    border-radius: 20px;
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.dash>h2{
+    font-family: Quicksand;
+    font-size: 27px;
+    color: #3A3B3B;
+}
+
+.dash>h2>span{
+    color: #14A8D5;
+}
+
+.dash .nav{
+    position: absolute;
+    top: 10px;
+    left: 69px;
+}
+
+.dash .nav1{
+    position: absolute;
+    top: 10px;
+    left: 79px;
+}
+
+.dash .nav3{
+    position: absolute;
+    top: 10px;
+    left: 107px;
+}
+
+.dash .nav4{
+    position: absolute;
+    top: 10px;
+    left: 89px;
+}
+
+
+
+.ob2 .items1 .item01>h4{
+    font-family: Quicksand;
+    font-size: 17px;
+    color: #3A3B3B;
+    position: absolute;
+    top: 10px;
+    left: 97px;
+}
+
+.ob2 .items1 .item01>h4>span{
+    color: #14A8D5;
+}
+
+.ob2 .items1 .item02>h4{
+    font-family: Quicksand;
+    font-size: 17px;
+    color: #3A3B3B;
+    position: absolute;
+    top: 0;
+    left: 242px;
+}
+
+.ob2 .items1 .item02>h4>span{
+    color: #14A8D5;
+}
+
+.dash .img1{
+    position: absolute;
+    top: 11px;
+    left: 24px;
+    width: 219px;
+}
+
+
+
+/*=========================================CustomerForm===============================================*/
+
+.addc{
+    position: absolute;
+    top: 42px;
+    left: 38px;
+    width: 557px;
+}
+
+.rfemale{
+    position: absolute;
+    top: 247px;
+    left: 105px;
+}
+.container{
+    font-family: Quicksand;
+    position: absolute;
+    top: 79px;
+    left: 281px;
+}
+
+.tb1{
+    position: absolute;
+    top: 405px;
+    left: 39px;
+    width: 89%;
+
+}
+
+.box1{
+    width: 254px;
+    height: 173px;
+    border-radius: 40px;
+    background: #0b5ed7;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 107px;
+    left: 705px;
+    cursor: pointer;
+}
+
+.box1>img{
+    width: 73px;
+    position: absolute;
+    top: 5px;
+    left: 86px;
+}
+
+.box1 .p11{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 76px;
+    left: 89px;
+}
+
+.box1 .p12{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 131px;
+    left: 74px;
+}
+
+/*=====================================Orders======================================================*/
+
+.ob2{
+    width: 1054px;
+    height: 574px;
+    position: absolute;
+    top: 79px;
+    left: 281px;
+    font-family: Quicksand;
+}
+
+.ob2 .items1 .item01{
+    width: 311px;
+    height: 519px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 44px;
+    left: 48px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item01>img{
+    position: absolute;
+    width: 182px;
+    top: 5px;
+    left: 28px;
+}
+
+.ob2 .items1 .item02{
+    width: 669px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 44px;
+    left: 391px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item02>img{
+    position: absolute;
+    width: 214px;
+    top: -13px;
+    left: 14px;
+}
+
+.ob2 .items1 .item01 .lb1{
+    position: absolute;
+    top: 49px;
+    left: 17px;
+    width: 89%;
+}
+.ob2 .items1 .item01 .lb2{
+    position: absolute;
+    top: 110px;
+    left: 17px;
+    width: 89%;
+}
+.ob2 .items1 .item01 .lb3{
+    position: absolute;
+    top: 165px;
+    left: 17px;
+    width: 89%;
+}
+.ob2 .items1 .item01 .lb4{
+    position: absolute;
+    top: 223px;
+    left: 17px;
+    width: 89%;
+}
+.ob2 .items1 .item01 .lb5{
+    position: absolute;
+    top: 292px;
+    left: 17px;
+    width: 89%;
+}
+.ob2 .items1 .item01 .lb6{
+    position: absolute;
+    top: 359px;
+    left: 17px;
+    width: 89%;
+}
+.ob2 .items1 .item01 .lb7{
+    position: absolute;
+    top: 428px;
+    left: 17px;
+    width: 89%;
+}
+
+.ob2 .items1 .item02 .lb8{
+    position: absolute;
+    top: 41px;
+    left: 37px;
+    width: 32%;
+}
+
+.ob2 .items1 .item02 .lb9{
+    position: absolute;
+    top: 41px;
+    left: 315px;
+    width: 32%;
+}
+
+.ob2 .items1 .item02 .lb10{
+    position: absolute;
+    top: 93px;
+    left: 37px;
+    width: 32%;
+}
+.ob2 .items1 .item02 .lb11{
+    position: absolute;
+    top: 103px;
+    left: 315px;
+    width: 32%;
+}
+.ob2 .items1 .item02 .lb12{
+    position: absolute;
+    top: 159px;
+    left: 37px;
+    width: 32%;
+}
+.ob2 .items1 .item02 .lb13{
+    position: absolute;
+    top: 164px;
+    left: 315px;
+    width: 32%;
+}
+
+.ob2 .items1 .item02 .b12{
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 103px;
+    left: 556px;
+}
+
+.ob2 .items1 .item04-1 .lb14{
+    position: absolute;
+    top: 129px;
+    left: 20px;
+    width: 34%;
+}
+
+.ob2 .items1 .item04-1 .lb15{
+    position: absolute;
+    top: 129px;
+    left: 422px;
+    width: 34%;
+}
+
+.ob2 .items1 .item04-1 .lb16{
+    position: absolute;
+    top: 200px;
+    left: 224px;
+    width: 34%;
+}
+
+.ob2 .items1 .item04-1 .b13{
+    position: absolute;
+    top: 191px;
+    left: 502px;
+    border-radius: 30px;
+    height: 53px;
+    width: 123px;
+}
+
+.ob2 .tb3{
+    position: absolute;
+    top: 597px;
+    left: 39px;
+    width: 98%;
+
+}
+
+.ob2 .items1 .item03{
+    width: 240px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 327px;
+    left: 48px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item03>img{
+    position: absolute;
+    width: 199px;
+    top: -19px;
+    left: 17px;
+}
+
+.ob2 .items1 .item04{
+    width: 240px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 327px;
+    left: 391px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item04>img{
+    position: absolute;
+    width: 173px;
+    top: 5px;
+    left: 31px;
+}
+
+.ob2 .items1 .item01-1{
+    width: 371px;
+    height: 81px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 51px;
+    left: 661px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item01-1>img{
+    position: absolute;
+    width: 73px;
+    top: 5px;
+    left: 18px;
+}
+
+.ob2 .items1 .item01-1 .para1-1{
+    font-family: Quicksand;
+    position: absolute;
+    top: 7px;
+    left: 94px;
+}
+
+.ob2 .items1 .item01-1 .para1-2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 32px;
+    left: 117px;
+}
+
+.ob2 .items1 .item01-1 .para1-3{
+    font-family: Quicksand;
+    position: absolute;
+    top: 24px;
+    left: 275px;
+}
+
+.ob2 .items1 .item01-1 .b5{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 21px;
+    left: 216px;
+    align-content: center;
+}
+
+.ob2 .items1 .item01-1 .b6{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 21px;
+    left: 307px;
+    align-content: center;
+}
+
+
+.ob2 .items1 .item02-1{
+    width: 371px;
+    height: 81px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 154px;
+    left: 661px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item02-1>img{
+    position: absolute;
+    width: 75px;
+    top: 0px;
+    left: 18px;
+}
+
+.ob2 .items1 .item02-1 .para2-1{
+    font-family: Quicksand;
+    position: absolute;
+    top: 7px;
+    left: 110px;
+}
+
+.ob2 .items1 .item02-1 .para2-2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 32px;
+    left: 117px;
+}
+
+.ob2 .items1 .item02-1 .para2-3{
+    font-family: Quicksand;
+    position: absolute;
+    top: 24px;
+    left: 275px;
+}
+
+.ob2 .items1 .item02-1 .b7{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 21px;
+    left: 216px;
+    align-content: center;
+}
+
+.ob2 .items1 .item02-1 .b8{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 21px;
+    left: 307px;
+    align-content: center;
+}
+
+.ob2 .items1 .item03-1{
+    width: 371px;
+    height: 81px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 257px;
+    left: 661px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item03-1>img{
+    position: absolute;
+    width: 69px;
+    top: 8px;
+    left: 18px;
+}
+
+.ob2 .items1 .item03-1 .para3-1{
+    font-family: Quicksand;
+    position: absolute;
+    top: 7px;
+    left: 121px;
+}
+
+.ob2 .items1 .item03-1 .para3-2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 32px;
+    left: 117px;
+}
+
+.ob2 .items1 .item03-1 .para3-3{
+    font-family: Quicksand;
+    position: absolute;
+    top: 24px;
+    left: 275px;
+}
+
+.ob2 .items1 .item03-1 .b9{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 21px;
+    left: 216px;
+    align-content: center;
+}
+
+.ob2 .items1 .item03-1 .b11{
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 21px;
+    left: 307px;
+    align-content: center;
+}
+
+.ob2 .items1 .item04-1{
+    width: 668px;
+    height: 268px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 296px;
+    left: 395px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item04-1 .b1{
+    font-family: Quicksand;
+    /*font-weight: bold;*/
+    width: 123px;
+    height: 46px;
+    border-radius: 20px;
+    position: absolute;
+    top: 131px;
+    left: 123px;
+    cursor: pointer;
+}
+
+.ob2 .items1 .item04-1 .para4-1{
+    font-family: Quicksand;
+    position: absolute;
+    top: 26px;
+    left: 32px;
+    color: #0a58ca;
+}
+
+.ob2 .items1 .item04-1 .para4-2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 78px;
+    left: 30px;
+    color: red;
+}
+
+.ob2 .items1 .item04-1 .para4-1-1{
+    font-family: Quicksand;
+    position: absolute;
+    top: 26px;
+    left: 540px;
+    color: #0a58ca;
+}
+
+.ob2 .items1 .item04-1 .para4-2-2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 78px;
+    left: 537px;
+    color: red;
+}
+
+.ob2 .items1 .item01>p{
+    position: absolute;
+    top: 184px;
+    left: 34px;
+    font-family: Quicksand;
+}
+.ob2 .items1 .item02>p{
+    position: absolute;
+    top: 184px;
+    left: 45px;
+    font-family: Quicksand;
+}
+.ob2 .items1 .item03>p{
+    position: absolute;
+    top: 186px;
+    left: 72px;
+    font-family: Quicksand;
+}
+.ob2 .items1 .item04>p{
+    position: absolute;
+    top: 184px;
+    left: 92px;
+    font-family: Quicksand;
+}
+
+/*=====================================items==============================================*/
+
+
+.tb2{
+    position: absolute;
+    top: 405px;
+    left: 39px;
+    width: 98%;
+
+}
+
+.box2{
+    width: 254px;
+    height: 173px;
+    border-radius: 40px;
+    background: yellowgreen;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 107px;
+    left: 705px;
+    cursor: pointer;
+}
+
+.box2>img{
+    width: 73px;
+    position: absolute;
+    top: 5px;
+    left: 86px;
+}
+
+.box2 .p11{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 76px;
+    left: 89px;
+}
+
+.box2 .p12{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 131px;
+    left: 97px;
+}
+
+.ob3{
+    width: 1054px;
+    height: 574px;
+    position: absolute;
+    top: 79px;
+    left: 281px;
+    font-family: Quicksand;
+}
+
+.ob3 .items1 .item01{
+    width: 240px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 44px;
+    left: 48px;
+    cursor: pointer;
+}
+
+.ob3 .items1 .item01>img{
+    position: absolute;
+    width: 182px;
+    top: 5px;
+    left: 28px;
+}
+
+.ob3 .items1 .item02{
+    width: 240px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 44px;
+    left: 391px;
+    cursor: pointer;
+}
+
+.ob3 .items1 .item02>img{
+    position: absolute;
+    width: 214px;
+    top: -13px;
+    left: 14px;
+}
+
+.ob3 .items1 .item03{
+    width: 240px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 327px;
+    left: 48px;
+    cursor: pointer;
+}
+
+.ob3 .items1 .item03>img{
+    position: absolute;
+    width: 199px;
+    top: -19px;
+    left: 17px;
+}
+
+.ob3 .items1 .item04{
+    width: 240px;
+    height: 226px;
+    border-radius: 40px;
+    background: white;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 327px;
+    left: 391px;
+    cursor: pointer;
+}
+
+.ob3 .items1 .item04>img{
+    position: absolute;
+    width: 173px;
+    top: 5px;
+    left: 31px;
+}
+
+.box6{
+    width: 254px;
+    height: 173px;
+    border-radius: 40px;
+    background: seagreen;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 217px;
+    left: 726px;
+    cursor: pointer;
+}
+
+.box6>img{
+    width: 73px;
+    position: absolute;
+    top: 5px;
+    left: 86px;
+}
+
+.box6 .p11{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 76px;
+    left: 89px;
+}
+
+.box6 .p12{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 131px;
+    left: 95px;
+}
+
+.ob3 .items1 .item01>p{
+    position: absolute;
+    top: 184px;
+    left: 34px;
+    font-family: Quicksand;
+}
+.ob3 .items1 .item02>p{
+    position: absolute;
+    top: 184px;
+    left: 45px;
+    font-family: Quicksand;
+}
+.ob3 .items1 .item03>p{
+    position: absolute;
+    top: 186px;
+    left: 72px;
+    font-family: Quicksand;
+}
+.ob3 .items1 .item04>p{
+    position: absolute;
+    top: 184px;
+    left: 92px;
+    font-family: Quicksand;
+}
+
+/*====================================Analytics=================================*/
+
+.ob7{
+    width: 1054px;
+    height: 574px;
+    background: grey;
+}
+
+/*select {*/
+/*    !*height: 25px;*!*/
+/*    background: #FFFFFF;*/
+/*}*/
+.dash>h2{
+    cursor: pointer;
+}
+
+.dash .img1{
+    cursor: pointer;
+}
+
+.ob1 .box1{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+
+.box2-1{
+    width: 254px;
+    height: 173px;
+    border-radius: 40px;
+    background: crimson;
+    box-shadow: 0 2.8px 2.2px rgb(0 0 0 / 3%), 0 6.7px 5.3px rgb(0 0 0 / 5%), 0 12.5px 10px rgb(0 0 0 / 6%), 0 22.3px 17.9px rgb(0 0 0 / 7%), 0 41.8px 33.4px rgb(0 0 0 / 9%), 0 100px 80px rgb(0 0 0 / 12%);
+    position: absolute;
+    top: 107px;
+    left: 705px;
+    cursor: pointer;
+}
+
+.box2-1>img{
+    width: 73px;
+    position: absolute;
+    top: 5px;
+    left: 86px;
+}
+
+.box2-1 .p11{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 76px;
+    left: 60px;
+}
+
+.box2-1 .p12{
+    font-family: Quicksand;
+    color: white;
+    position: absolute;
+    top: 131px;
+    left: 97px;
+}
+
+.ob1 .box2-1{
+    position: absolute;
+    top: 347px;
+    left: 396px;
+}
+
+.ob1>img{
+    height: 89px;
+    position: absolute;
+    top: 31px;
+    left: 456px;
+}
+
+.ob1>h2{
+    font-family: Quicksand;
+    position: absolute;
+    top: 168px;
+    left: 404px;
+    font-size: 48px;
+}
+
+.ob1>h2>span{
+    color: #14A8D5;
+}
+
+.ob1 .copyright{
+    font-family: Quicksand;
+    font-size: 15px;
+    color: #777777;
+    position: absolute;
+    top: 546px;
+    left: 334px;
+}
